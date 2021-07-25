@@ -13,8 +13,6 @@
         android:layout_height="99dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:gravity="center_vertical"
         android:onClick="ShowToast"
         android:text="@string/button_label_toast"
@@ -26,8 +24,8 @@
 
     <Button
         android:id="@+id/button_count"
-        android:layout_width="421dp"
-        android:layout_height="100dp"
+        android:layout_width="713dp"
+        android:layout_height="88dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
@@ -49,7 +47,7 @@
         android:text="@string/count_initial_value"
         android:textAlignment="center"
         android:textColor="@color/design_default_color_primary"
-        android:textSize="160sp"
+        android:textSize="120sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button_count"
         app:layout_constraintEnd_toEndOf="parent"
